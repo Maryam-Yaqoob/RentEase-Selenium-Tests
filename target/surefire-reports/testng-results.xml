@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-05T19:25:51 UTC" name="RentEase Selenium Suite" finished-at="2026-05-05T19:26:56 UTC" duration-ms="65255">
+    <groups>
+    </groups>
+    <test started-at="2026-05-05T19:25:51 UTC" name="RentEase Tests" finished-at="2026-05-05T19:26:56 UTC" duration-ms="65255">
+      <class name="tests.RentEaseTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:25:51 UTC" name="setup" finished-at="2026-05-05T19:25:52 UTC" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test01LandingPageLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:25:52 UTC" name="test01LandingPageLoads" finished-at="2026-05-05T19:25:56 UTC" duration-ms="3779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01LandingPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:25:56 UTC" name="tearDown" finished-at="2026-05-05T19:25:56 UTC" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:25:56 UTC" name="setup" finished-at="2026-05-05T19:25:57 UTC" duration-ms="610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test02LoginPageOpens()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:25:57 UTC" name="test02LoginPageOpens" finished-at="2026-05-05T19:26:00 UTC" duration-ms="3565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02LoginPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:00 UTC" name="tearDown" finished-at="2026-05-05T19:26:00 UTC" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:00 UTC" name="setup" finished-at="2026-05-05T19:26:01 UTC" duration-ms="672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test03RegisterPageOpens()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:01 UTC" name="test03RegisterPageOpens" finished-at="2026-05-05T19:26:05 UTC" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03RegisterPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:05 UTC" name="tearDown" finished-at="2026-05-05T19:26:05 UTC" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:05 UTC" name="setup" finished-at="2026-05-05T19:26:06 UTC" duration-ms="698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test04InvalidLoginPageLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:06 UTC" name="test04InvalidLoginPageLoads" finished-at="2026-05-05T19:26:09 UTC" duration-ms="3600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04InvalidLoginPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:09 UTC" name="tearDown" finished-at="2026-05-05T19:26:09 UTC" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:09 UTC" name="setup" finished-at="2026-05-05T19:26:10 UTC" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test05TenantRegistrationPageLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:10 UTC" name="test05TenantRegistrationPageLoads" finished-at="2026-05-05T19:26:14 UTC" duration-ms="3685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test05TenantRegistrationPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:14 UTC" name="tearDown" finished-at="2026-05-05T19:26:14 UTC" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:14 UTC" name="setup" finished-at="2026-05-05T19:26:14 UTC" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test06LandlordRegistrationPageLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:14 UTC" name="test06LandlordRegistrationPageLoads" finished-at="2026-05-05T19:26:18 UTC" duration-ms="3621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test06LandlordRegistrationPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:18 UTC" name="tearDown" finished-at="2026-05-05T19:26:18 UTC" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:18 UTC" name="setup" finished-at="2026-05-05T19:26:19 UTC" duration-ms="657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test07PropertiesPageLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:19 UTC" name="test07PropertiesPageLoads" finished-at="2026-05-05T19:26:22 UTC" duration-ms="3513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07PropertiesPageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:22 UTC" name="tearDown" finished-at="2026-05-05T19:26:22 UTC" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:22 UTC" name="setup" finished-at="2026-05-05T19:26:23 UTC" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test08TenantDashboardRouteLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:23 UTC" name="test08TenantDashboardRouteLoads" finished-at="2026-05-05T19:26:26 UTC" duration-ms="3485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test08TenantDashboardRouteLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:26 UTC" name="tearDown" finished-at="2026-05-05T19:26:27 UTC" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:27 UTC" name="setup" finished-at="2026-05-05T19:26:27 UTC" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test09LandlordDashboardRouteLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:27 UTC" name="test09LandlordDashboardRouteLoads" finished-at="2026-05-05T19:26:31 UTC" duration-ms="3567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test09LandlordDashboardRouteLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:31 UTC" name="tearDown" finished-at="2026-05-05T19:26:31 UTC" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:31 UTC" name="setup" finished-at="2026-05-05T19:26:31 UTC" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test10AddPropertyRouteLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:31 UTC" name="test10AddPropertyRouteLoads" finished-at="2026-05-05T19:26:35 UTC" duration-ms="3592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10AddPropertyRouteLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:35 UTC" name="tearDown" finished-at="2026-05-05T19:26:35 UTC" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:35 UTC" name="setup" finished-at="2026-05-05T19:26:36 UTC" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test11ApplicationsRouteLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:36 UTC" name="test11ApplicationsRouteLoads" finished-at="2026-05-05T19:26:39 UTC" duration-ms="3483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11ApplicationsRouteLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:39 UTC" name="tearDown" finished-at="2026-05-05T19:26:39 UTC" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:39 UTC" name="setup" finished-at="2026-05-05T19:26:40 UTC" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test12ProfileRouteLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:40 UTC" name="test12ProfileRouteLoads" finished-at="2026-05-05T19:26:43 UTC" duration-ms="3531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12ProfileRouteLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:43 UTC" name="tearDown" finished-at="2026-05-05T19:26:43 UTC" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:43 UTC" name="setup" finished-at="2026-05-05T19:26:44 UTC" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test13PageContainsRentEaseText()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:44 UTC" name="test13PageContainsRentEaseText" finished-at="2026-05-05T19:26:48 UTC" duration-ms="3683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13PageContainsRentEaseText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:48 UTC" name="tearDown" finished-at="2026-05-05T19:26:48 UTC" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:48 UTC" name="setup" finished-at="2026-05-05T19:26:48 UTC" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test14BrowserCanNavigateBack()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:48 UTC" name="test14BrowserCanNavigateBack" finished-at="2026-05-05T19:26:51 UTC" duration-ms="3153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14BrowserCanNavigateBack -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:51 UTC" name="tearDown" finished-at="2026-05-05T19:26:52 UTC" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:52 UTC" name="setup" finished-at="2026-05-05T19:26:52 UTC" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test15LogoutRouteLoads()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:52 UTC" name="test15LogoutRouteLoads" finished-at="2026-05-05T19:26:56 UTC" duration-ms="3515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15LogoutRouteLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RentEaseTests@27c86f2d]" started-at="2026-05-05T19:26:56 UTC" name="tearDown" finished-at="2026-05-05T19:26:56 UTC" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RentEaseTests -->
+    </test> <!-- RentEase Tests -->
+  </suite> <!-- RentEase Selenium Suite -->
+</testng-results>

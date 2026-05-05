@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  RentEase Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RentEase Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 05 19:25:51 UTC 2026</td>
+</tr>
+<tr><td>Total time:</td><td>65 seconds (65255 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.RentEaseTests.test02LoginPageOpens()'><b>test02LoginPageOpens</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test07PropertiesPageLoads()'><b>test07PropertiesPageLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test15LogoutRouteLoads()'><b>test15LogoutRouteLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test11ApplicationsRouteLoads()'><b>test11ApplicationsRouteLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test14BrowserCanNavigateBack()'><b>test14BrowserCanNavigateBack</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test04InvalidLoginPageLoads()'><b>test04InvalidLoginPageLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test06LandlordRegistrationPageLoads()'><b>test06LandlordRegistrationPageLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test01LandingPageLoads()'><b>test01LandingPageLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test08TenantDashboardRouteLoads()'><b>test08TenantDashboardRouteLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test12ProfileRouteLoads()'><b>test12ProfileRouteLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test13PageContainsRentEaseText()'><b>test13PageContainsRentEaseText</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test05TenantRegistrationPageLoads()'><b>test05TenantRegistrationPageLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test09LandlordDashboardRouteLoads()'><b>test09LandlordDashboardRouteLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test10AddPropertyRouteLoads()'><b>test10AddPropertyRouteLoads</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+<tr>
+<td title='tests.RentEaseTests.test03RegisterPageOpens()'><b>test03RegisterPageOpens</b><br>Test class: tests.RentEaseTests</td>
+<td></td>
+<td>3</td>
+<td>tests.RentEaseTests@27c86f2d</td></tr>
+</table><p>
+</body>
+</html>

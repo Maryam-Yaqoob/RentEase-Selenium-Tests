@@ -9,6 +9,7 @@ import org.testng.annotations.*;
 
 import java.time.Duration;
 
+
 public class RentEaseTests {
 
     WebDriver driver;

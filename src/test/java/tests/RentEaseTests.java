@@ -15,7 +15,7 @@ public class RentEaseTests {
     WebDriver driver;
     WebDriverWait wait;
 
-    String BASE_URL = System.getenv().getOrDefault("BASE_URL", "http://13.48.132.213:5174");
+    String BASE_URL = System.getenv().getOrDefault("BASE_URL", "http://13.48.132.213:5173");
 
     @BeforeMethod
     public void setup() {
